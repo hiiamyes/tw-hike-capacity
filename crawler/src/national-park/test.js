@@ -1,10 +1,6 @@
 const getHuts = require("./getHuts");
 const getBeds = require("./getBeds");
 
-// let beds = require('./beds.js')
-
-// beds.get('七卡山莊').then(res => console.log(res));
-
 test("Get sheipa huts", async () => {
   const huts = await getHuts("sheipa");
   expect(huts.length).toBe(31);

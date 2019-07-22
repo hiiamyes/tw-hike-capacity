@@ -7,17 +7,18 @@
     "huts:prod": "NODE_ENV=production node src/scripts/update-huts.js",
     "beds": "pm2 start pm2.json --only crawler-dev",
     "beds:prod": "pm2 start pm2.json --only crawler-prod",
-    "test": "mocha test/test.js"
+    "test": "jest --verbose --watch"
   },
   "author": "yes",
   "dependencies": {
     "asyncawait": "^1.0.6",
-    "axios": "^0.13.1",
+    "axios": "0.18.1",
     "bluebird": "^3.4.6",
     "cheerio": "^0.20.0",
     "co": "^4.6.0",
     "elasticsearch": "^11.0.1",
     "form-data": "^1.0.1",
+    "jest": "^24.8.0",
     "lodash": "^4.15.0",
     "mocha": "^3.2.0",
     "moment": "^2.13.0",

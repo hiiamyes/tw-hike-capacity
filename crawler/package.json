@@ -1,7 +1,7 @@
 {
-  "name": "tw-huts-crawler",
+  "name": "tw-hike-capacity-crawler",
   "version": "0.0.1",
-  "description": "",
+  "description": "tw-hike-capacity-crawler",
   "scripts": {
     "huts": "NODE_ENV=development node src/scripts/update-huts.js",
     "huts:prod": "NODE_ENV=production node src/scripts/update-huts.js",

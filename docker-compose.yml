@@ -2,28 +2,26 @@ version: "3"
 services:
   db:
     build: ./db
-    env_file: .env
+    env_file: ./config/.env
     volumes:
       - ~/postgresql/tw-hike-capacity/data:/var/lib/postgresql/data
   db-migrate:
     build: ./db-migrate
-    env_file: .env
+    env_file: ./config/.env
     volumes:
       - ./db-migrate/migrations:/app/migrations
     depends_on:
       - db
-  # api:
-  #   build: ./api
-  #   env_file: .env
-  #   volumes:
-  #     - ./api/src:/app/src
-  #   ports:
-  #     - "3000:3000"
-  #   depends_on:
-  #     - db
+  crawler:
+    build: ./crawler
+    env_file: ./config/.env
+    volumes:
+      - ./crawler/src:/app/src
+    depends_on:
+      - db
   # web:
   #   build: ./web
-  #   env_file: .env
+  #   env_file: ./config/.env
   #   volumes:
   #     - ./web/src:/app/src
   #   ports:

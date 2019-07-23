@@ -6,6 +6,6 @@ CREATE TABLE huts (
     url text NOT NULL,
     size integer NOT NULL,
     available boolean NOT NULL,
-    rooms integer,
+    rooms integer
 );
 

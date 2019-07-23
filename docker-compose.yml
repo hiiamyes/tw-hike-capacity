@@ -5,8 +5,6 @@ services:
     env_file: .env
     volumes:
       - ~/postgresql/tw-hike-capacity/data:/var/lib/postgresql/data
-    ports:
-      - "5433:5432"
   db-migrate:
     build: ./db-migrate
     env_file: .env

@@ -1,0 +1,134 @@
+$color-text: black;
+$color-teal: #009688;
+$color-red: #FC3D39;
+$color-grey-300: #E0E0E0;
+$color-grey-400: #BDBDBD;
+$color-grey-600: #757575;
+$color-grey-700: #616161;
+$color-border: $color-grey-300;
+
+.calendar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .header {
+    width: 100%;
+    display: flex;
+    color: $color-grey-600;
+    border-bottom: 1px solid $color-grey-600;
+    .dayTitle {
+      flex-basis: calc(100% / 7);
+      padding: .5rem 1rem .4rem 0;
+      text-align: right;
+    }
+  }
+}
+
+.dayContainer {
+  margin-left: -2px;
+  flex: 1;
+  overflow: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border-color: $color-border;
+  border-style: solid;
+  border-width: 0 1px 1px 0;
+
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 0px;
+  }
+
+}
+
+.dayContent {
+  position: relative;
+  flex-basis: calc(100% / 7);
+  min-height: 6rem;
+  border-color: $color-border;
+  border-style: solid;
+  border-width: 1px 0 0 1px;
+  padding: 5px;
+  overflow: hidden;
+
+  &:nth-of-type(7n+1) {
+    background: #f5f5f5;
+  }
+
+  &:nth-of-type(7n) {
+    background: #f5f5f5;
+  }
+
+  .day {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    > span {
+      color: $color-grey-600;
+      margin-right: .4rem;
+    }
+    .date {
+      width: 1.6rem;
+      height: 1.6rem;
+      border-radius: 1.6rem;
+      color: $color-grey-600;
+      float: right;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      span {
+        font-size: 1rem;
+      }
+      &.today {
+        background: $color-red;
+        color: white;
+      }
+    }
+  }
+
+  .huts {
+
+    .hut {
+      margin-top: .1rem;
+
+      .name {
+        font-size: .9rem;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        text-align: right;
+        text-decoration: none;
+        color: $color-grey-600;
+      }
+
+      .count {
+        justify-content: flex-end;
+
+        .remaining {
+          color: $color-teal;
+          font-size: 1rem;
+          width: 1.9rem;
+          text-align: right;
+          margin-right: .2rem;
+          &.gone {
+            color: red;
+          }
+        }
+
+        .applying {
+          font-size: 1rem;
+          width: 1.9rem;
+          text-align: right;
+          color: $color-grey-600;
+        }
+      }
+
+    }
+  }
+
+}

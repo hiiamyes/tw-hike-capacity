@@ -1,0 +1,26 @@
+{
+  "name": "hut-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "deploy": "scp -i ~/.ssh/hut-be.pem -r ./src package.json ec2-user@52.36.39.175:~/hut-be"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "cheerio": "^0.20.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "moment": "^2.13.0",
+    "mongodb": "^2.1.18",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}

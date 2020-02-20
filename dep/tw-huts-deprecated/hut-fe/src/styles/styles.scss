@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+/* Variables */
+$b: #233237;
+$b2: #135b9c;
+$bhover: #1e2c31;
+$g: #797c81;
+
+// @font-face {
+//   font-family: myFirstFont;
+//   // src: url(../assets/cwTeXYen-zhonly.ttf);
+//   src: url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+// }
+
+/* Styles */
+* {
+  box-sizing: border-box;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+body {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  // font-family: 'myFirstFont', sans-serif
+  font-family: 'cwTeXYen', sans-serif;
+}
+
+#app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  #navbar {
+    height: 0px;
+    @media(max-width: 760px) {
+      display: none;
+    }
+  }
+
+  #content {
+    display: flex;
+    height: 100%;
+
+    #hut {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+
+      #calendar {
+        flex: 1;
+        padding: 10px 20px;
+        overflow: scroll;
+
+        .month {
+          font-size: 28px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          color: #0E4267;
+        }
+        // display: flex;
+        // justify-content: center;
+
+        #chart-container {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+        }
+      }
+
+    }
+  }
+}
+
+.hint-container {
+  position: absolute;
+  right: 30px;
+  top: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon-remaining-hint {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: $b;
+  margin: 0 5px;
+  border-radius: 2px;
+}
+
+.icon-applying-hint {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: $b2;
+  margin: 0 5px;
+  border-radius: 2px;
+}
+
+.remaining-hint {
+  color: $b;
+}
+
+.applying-hint {
+  color: $b2;
+}

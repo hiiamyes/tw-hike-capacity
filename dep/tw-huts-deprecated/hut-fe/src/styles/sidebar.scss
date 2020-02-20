@@ -1,0 +1,88 @@
+/* Variables */
+$b: #233237;
+$b2: #135b9c;
+$bhover: #1e2c31;
+$g: #797c81;
+
+#sidebar {
+  width: 250px;
+  background: $b;
+  margin-right: 1px;
+  font-size: 20px;
+  color: $g;
+  display: none;
+  overflow: scroll;
+
+  .admin {
+    color: white;
+    cursor: pointer;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    transition: all 0.5s ease;
+    // justify-content: center;
+
+    &:hover {
+      background: $bhover;
+
+      .hoverbar {
+        background: $b2;
+      }
+    }
+
+    .icon {
+      width: 20px;
+      height: 20px;
+      margin-left: 30px;
+      margin-right: 10px;
+      background: url(../assets/icon.png);
+      background-size: cover;
+    }
+
+    .hoverbar {
+      display: inline-block;
+      width: 5px;
+      height: 100%;
+      background: $b;
+      transition: all 0.5s ease;
+    }
+  }
+
+  .hut-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    visibility: hidden;
+    margin-right: 5px;
+    max-height: 0;
+    opacity: 0;
+    transition: all 1s ease;
+
+    .hut {
+      width: 20px;
+      writing-mode: vertical-lr;
+      color: white;
+      font-size: 18px;
+      padding: 2px;
+      cursor: pointer;
+      transition: all 0.5s ease;
+
+      &:hover {
+        background: $b2
+      }
+    }
+  }
+
+  .hut-container-show {
+    max-height: 800px;
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+@media (min-width: 760px) {
+  #sidebar {
+    display: flex;
+    flex-direction: column;
+  }
+}

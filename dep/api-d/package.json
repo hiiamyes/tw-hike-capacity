@@ -1,0 +1,20 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "description": "api server for tw-huts",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development nodemon src/index.js",
+    "start:prod": "NODE_ENV=production nodemon src/index.js"
+  },
+  "author": "yes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "co": "^4.6.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.9",
+    "nodemon": "^1.10.2"
+  }
+}

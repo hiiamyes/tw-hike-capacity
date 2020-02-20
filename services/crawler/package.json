@@ -1,0 +1,16 @@
+{
+  "name": "tw-hike-capacity-crawler",
+  "version": "0.0.1",
+  "description": "A service for inquiring the capacity of hiking trails / huts / camps in Taiwan.",
+  "scripts": {
+    "huts": "NODE_ENV=development node src/scripts/update-huts.js",
+    "huts:prod": "NODE_ENV=production node src/scripts/update-huts.js",
+    "beds": "pm2 start pm2.json --only crawler-dev",
+    "beds:prod": "pm2 start pm2.json --only crawler-prod",
+    "start": "./scripts/start.sh",
+    "test": "jest --verbose --watch"
+  },
+  "author": "yes",
+  "dependencies": {
+  }
+}

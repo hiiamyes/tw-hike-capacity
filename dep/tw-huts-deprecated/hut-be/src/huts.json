@@ -1,0 +1,430 @@
+[{
+	"name": "Qika Hut",
+	"nameZh": "七卡山莊",
+	"rooms": 10,
+	"admin": "雪霸國家公園",
+	"capacity": 130,
+	"isApplicable": true
+},{
+	"name": "Qika Campground",
+	"nameZh": "七卡營地",
+	"rooms": 11,
+	"admin": "雪霸國家公園",
+	"capacity": 10,
+	"isApplicable": true
+},{
+	"name": "Sancha Campground",
+	"nameZh": "三叉營地",
+	"rooms": 61,
+	"admin": "雪霸國家公園",
+	"capacity": 6,
+	"isApplicable": true
+},{
+	"name": "Saliujiu Hut",
+	"nameZh": "三六九山莊",
+	"rooms": 13,
+	"admin": "雪霸國家公園",
+	"capacity": 106,
+	"isApplicable": true
+},{
+	"name": "Huoshihshansia Campground",
+	"nameZh": "火石山下營地",
+	"rooms": 51,
+	"admin": "雪霸國家公園",
+	"capacity": 6,
+	"isApplicable": true
+},{
+	"name": "Wanmeigu Campground",
+	"nameZh": "完美谷營地",
+	"rooms": 31,
+	"admin": "雪霸國家公園",
+	"capacity": 6,
+	"isApplicable": true
+},{
+	"name": "Youpolan Campground",
+	"nameZh": "油婆蘭營地",
+	"rooms": 28,
+	"admin": "雪霸國家公園",
+	"capacity": 10,
+	"isApplicable": true
+},{
+	"name": "Taoshan Hut",
+	"nameZh": "桃山山屋",
+	"rooms": 58,
+	"admin": "雪霸國家公園",
+	"capacity": 19,
+	"isApplicable": true
+},{
+	"name": "Taoshan Campground",
+	"nameZh": "桃山營地",
+	"rooms": 59,
+	"admin": "雪霸國家公園",
+	"capacity": 2,
+	"isApplicable": true
+},{
+	"name": "Sumida Shelter",
+	"nameZh": "素密達山屋",
+	"rooms": 83,
+	"admin": "雪霸國家公園",
+	"capacity": 24,
+	"isApplicable": true
+},{
+	"name": "Mayang Mountain Campground",
+	"nameZh": "馬洋山前營地",
+	"rooms": 75,
+	"admin": "雪霸國家公園",
+	"capacity": 8,
+	"isApplicable": true
+},{
+	"name": "Mayang Pond Campground",
+	"nameZh": "馬洋池營地",
+	"rooms": 78,
+	"admin": "雪霸國家公園",
+	"capacity": 8,
+	"isApplicable": true
+},{
+	"name": "Former Site of Syueshan Cabin Campground",
+	"nameZh": "雪山山莊舊址營地",
+	"rooms": 24,
+	"admin": "雪霸國家公園",
+	"capacity": 6,
+	"isApplicable": true
+},{
+	"name": "Syuebei Shelter",
+	"nameZh": "雪北山屋",
+	"rooms": 85,
+	"admin": "雪霸國家公園",
+	"capacity": 25,
+	"isApplicable": true
+},{
+	"name": "Xinda Hut",
+	"nameZh": "新達山屋",
+	"rooms": 63,
+	"admin": "雪霸國家公園",
+	"capacity": 34,
+	"isApplicable": true
+},{
+	"name": "Xinda Campground",
+	"nameZh": "新達營地",
+	"rooms": 64,
+	"isApplicable": true
+},{
+	"name": "Cuei Pond Shelter",
+	"nameZh": "翠池山屋",
+	"rooms": 17,
+	"admin": "雪霸國家公園",
+	"capacity": 12,
+	"isApplicable": true
+},{
+	"name": "Cuei Pond Campground",
+	"nameZh": "翠池營地",
+	"rooms": 18,
+	"admin": "雪霸國家公園",
+	"capacity": 5,
+	"isApplicable": true
+},{
+	"name": "Piaodan Hut Campground",
+	"nameZh": "瓢簞營地",
+	"rooms": 21,
+	"admin": "雪霸國家公園",
+	"capacity": 8,
+	"isApplicable": true
+},{
+	"name": "Sailiangjiou Campground",
+	"nameZh": "賽良久營地",
+	"rooms": 20,
+	"admin": "雪霸國家公園",
+	"capacity": 4,
+	"isApplicable": true
+},{
+	"name": "Banan Hut",
+	"nameZh": "霸南山屋",
+	"rooms": 79,
+	"admin": "雪霸國家公園",
+	"capacity": 15,
+	"isApplicable": true
+},{
+	"name": "Heishuitang Cabin",
+	"nameZh": "黑水塘山屋",
+	"rooms": 124,
+	"admin": "太魯閣國家公園",
+	"capacity": 10,
+	"isApplicable": true
+},{
+	"name": "Cheng Gong Cabin",
+	"nameZh": "成功山屋",
+	"rooms": 125,
+	"admin": "太魯閣國家公園",
+	"capacity": 34,
+	"isApplicable": true
+},{
+	"name": "Cheng Gong Cabin No.2",
+	"nameZh": "成功二號堡",
+	"rooms": 126,
+	"admin": "太魯閣國家公園",
+	"capacity": 10,
+	"isApplicable": true
+},{
+	"name": "Qilai Cabin",
+	"nameZh": "奇萊山屋",
+	"rooms": 127,
+	"admin": "太魯閣國家公園",
+	"capacity": 8,
+	"isApplicable": true
+},{
+	"name": "Yuleng Cabin",
+	"nameZh": "雲稜山屋",
+	"rooms": 149,
+	"admin": "太魯閣國家公園",
+	"capacity": 55,
+	"isApplicable": true
+},{
+	"name": "Shenmazhen Cabin",
+	"nameZh": "審馬陣山屋",
+	"rooms": 151,
+	"admin": "太魯閣國家公園",
+	"capacity": 12,
+	"isApplicable": true
+},{
+	"name": "Nanhu Cabin",
+	"nameZh": "南湖山屋",
+	"rooms": 152,
+	"admin": "太魯閣國家公園",
+	"capacity": 40,
+	"isApplicable": true
+},{
+	"name": "",
+	"nameZh": "檜谷山莊",
+	"admin": "台灣山林悠遊網",
+	"capacity": 42,
+	"isApplicable": false
+},{
+	"name": "",
+	"nameZh": "檜谷營地",
+	"admin": "台灣山林悠遊網",
+	"capacity": 15,
+	"isApplicable": false
+},{
+	"name": "",
+	"nameZh": "向陽山屋",
+	"admin": "台灣山林悠遊網",
+	"capacity": 70,
+	"isApplicable": true
+},{
+	"name": "",
+	"nameZh": "嘉明湖避難山屋",
+	"admin": "台灣山林悠遊網",
+	"capacity": 70,
+	"isApplicable": true
+},{
+	"name": "Paiyun Lodge",
+	"nameZh": "排雲山莊",
+	"admin": "玉山國家公園",
+	"capacity": 92,
+	"isApplicable": true,
+	"ddlLocation": 1
+},{
+	"name": "Yuanfong Cabin",
+	"nameZh": "圓峰山屋",
+	"admin": "玉山國家公園",
+	"capacity": 15,
+	"isApplicable": true,
+	"ddlLocation": 136
+},{
+	"name": "Yuanfong Campground",
+	"nameZh": "圓峰營地",
+	"admin": "玉山國家公園",
+	"capacity": 9,
+	"isApplicable": true,
+	"ddlLocation": 136
+},{
+	"name": "LeLe Cabin",
+	"nameZh": "樂樂山屋",
+	"admin": "玉山國家公園",
+	"capacity": 12,
+	"isApplicable": true,
+	"ddlLocation": 5
+},{
+	"name": "Banaiyike Campground",
+	"nameZh": "巴奈伊克營地",
+	"admin": "玉山國家公園",
+	"capacity": 12,
+	"isApplicable": true,
+	"ddlLocation": 7
+},{
+	"name": "Jhongyang Mine Cabin",
+	"nameZh": "中央金礦山屋",
+	"admin": "玉山國家公園",
+	"capacity": 20,
+	"isApplicable": true,
+	"ddlLocation": 8
+},{
+	"name": "Baiyang Mine Cabin",
+	"nameZh": "白洋金礦山屋",
+	"admin": "玉山國家公園",
+	"capacity": 12,
+	"isApplicable": true,
+	"ddlLocation": 9
+},{
+	"name": "Baiyang Mine Campground",
+	"nameZh": "白洋金礦營地",
+	"admin": "玉山國家公園",
+	"capacity": 8,
+	"isApplicable": true,
+	"ddlLocation": 9
+},{
+	"name": "Dujyuan Campground",
+	"nameZh": "杜鵑營地",
+	"admin": "玉山國家公園",
+	"capacity": 20,
+	"isApplicable": true,
+	"ddlLocation": 10
+},{
+	"name": "Nan Campground",
+	"nameZh": "南營地",
+	"admin": "玉山國家公園",
+	"capacity": 20,
+	"isApplicable": true,
+	"ddlLocation": 11
+},{
+	"name": "Dashueiku Cabin",
+	"nameZh": "大水窟山屋",
+	"admin": "玉山國家公園",
+	"capacity": 20,
+	"isApplicable": true,
+	"ddlLocation": 12
+},{
+	"name": "Tafen Valley Cabin",
+	"nameZh": "塔芬谷山屋",
+	"admin": "玉山國家公園",
+	"capacity": 20,
+	"isApplicable": true,
+	"ddlLocation": 14
+},{
+	"name": "Lulu Valley Cabin",
+	"nameZh": "轆轆谷山屋",
+	"admin": "玉山國家公園",
+	"capacity": 20,
+	"isApplicable": true,
+	"ddlLocation": 19
+},{
+	"name": "Yunfong Sancha Campground",
+	"nameZh": "雲峰下三叉營地",
+	"admin": "玉山國家公園",
+	"capacity": 20,
+	"isApplicable": true,
+	"ddlLocation": 17
+},{
+	"name": "Lakuyin River Cabin",
+	"nameZh": "拉庫音溪底山屋",
+	"admin": "玉山國家公園",
+	"capacity": 20,
+	"isApplicable": true,
+	"ddlLocation": 16
+},{
+	"name": "Mabolasih Cabin",
+	"nameZh": "馬博前山屋",
+	"admin": "玉山國家公園",
+	"capacity": 20,
+	"isApplicable": true,
+	"ddlLocation": 28
+},{
+	"name": "Malijianan Cabin",
+	"nameZh": "馬利加南東峰前山屋",
+	"admin": "玉山國家公園",
+	"capacity": 20,
+	"isApplicable": true,
+	"ddlLocation": 29
+},{
+	"name": "Mabu Valley Cabin",
+	"nameZh": "馬布谷山屋",
+	"admin": "玉山國家公園",
+	"capacity": 20,
+	"isApplicable": true,
+	"ddlLocation": 30
+},{
+	"name": "Jiasin Camp",
+	"nameZh": "佳心營地",
+	"admin": "玉山國家公園",
+	"capacity": 24,
+	"isApplicable": true,
+	"ddlLocation": 27
+},{
+	"name": "Walami Cabin",
+	"nameZh": "瓦拉米山屋",
+	"admin": "玉山國家公園",
+	"capacity": 24,
+	"isApplicable": true,
+	"ddlLocation": 26
+},{
+	"name": "Walami Campground",
+	"nameZh": "瓦拉米營地",
+	"admin": "玉山國家公園",
+	"capacity": 24,
+	"isApplicable": true,
+	"ddlLocation": 26
+},{
+	"name": "Baoyat Cabin",
+	"nameZh": "抱崖山屋",
+	"admin": "玉山國家公園",
+	"capacity": 16,
+	"isApplicable": true,
+	"ddlLocation": 25
+},{
+	"name": "Baoyat Campground",
+	"nameZh": "抱崖營地",
+	"admin": "玉山國家公園",
+	"capacity": 4,
+	"isApplicable": true,
+	"ddlLocation": 25
+},{
+	"name": "Duomeili Campground",
+	"nameZh": "多美麗營地",
+	"admin": "玉山國家公園",
+	"capacity": 12,
+	"isApplicable": true,
+	"ddlLocation": 24
+},{
+	"name": "Dafen Cabin",
+	"nameZh": "大分山屋",
+	"admin": "玉山國家公園",
+	"capacity": 12,
+	"isApplicable": true,
+	"ddlLocation": 23
+},{
+	"name": "Tuomasih Campground",
+	"nameZh": "托馬斯營地",
+	"admin": "玉山國家公園",
+	"capacity": 20,
+	"isApplicable": true,
+	"ddlLocation": 36
+},{
+	"name": "Kuhanuosin Cabin",
+	"nameZh": "庫哈諾辛山屋",
+	"admin": "玉山國家公園",
+	"capacity": 20,
+	"isApplicable": true,
+	"ddlLocation": 20
+},{
+	"name": "Mt. Lianli Front (Taoyuan) Campground",
+	"nameZh": "連理山前(桃源)營地",
+	"admin": "玉山國家公園",
+	"capacity": 20,
+	"isApplicable": true,
+	"ddlLocation": 21
+},{
+	"name": "Mt. Sinsian Front Camp",
+	"nameZh": "新仙山前營地",
+	"admin": "玉山國家公園",
+	"capacity": 22,
+	"isApplicable": true,
+	"ddlLocation": 22
+},{
+	"name": "Tianchi Hill",
+	"nameZh": "天池山莊",
+	"url": "http://tconline.forest.gov.tw/order/",
+	"urlApply": "http://tconline.forest.gov.tw/order/",
+	"admin": "南投林區管理處",
+	"capacity": 88,
+	"isApplicable": true
+}]

@@ -1,0 +1,25 @@
+version: 2
+jobs:
+  build:
+    branches:
+      only:
+        - master
+    docker:
+      - image: circleci/node:7.10
+    steps:
+      - checkout
+      - run: |
+          ssh-keyscan $LINODE_IP >> ~/.ssh/known_hosts
+          ssh yes@$LINODE_IP << EOF            
+            if [ -d ~/app/paaaack ]; then
+              cd ~/app/paaaack/
+              git pull
+            else
+              mkdir -p ~/app/
+              cd ~/app/
+              git clone git@github.com:hiiamyes/paaaack.git
+              cd paaaack/              
+            fi
+            sudo ./scripts/build.sh
+            sudo ./scripts/start.sh
+          EOF

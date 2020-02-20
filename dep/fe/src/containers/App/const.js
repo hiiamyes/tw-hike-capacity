@@ -1,0 +1,9 @@
+export const FETCH_REQUEST = 'control-panel/FETCH_REQUEST';
+export const FETCH_SUCCESS = 'control-panel/FETCH_SUCCESS';
+export const FETCH_FAIL = 'control-panel/FETCH_FAIL';
+export const UPDATE_QUERY_PARAMS_AND_SEARCH = 'control-panel/UPDATE_QUERY_PARAMS_AND_SEARCH';
+export const HANDLE_DATE_INPUT = 'control-panel/HANDLE_DATE_INPUT';
+export const UPDATE_SORT = 'control-panel/UPDATE_SORT';
+export const ON_HUT_CLICK = 'control-panel/ON_HUT_CLICK';
+export const ON_SEARCH_BAR_CHANGE = 'control-panel/ON_SEARCH_BAR_CHANGE';
+export const SET_IN = 'control-panel/SET_IN';

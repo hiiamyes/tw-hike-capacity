@@ -1,0 +1,59 @@
+$color-text: #212121;
+$color-text-hover: #009688;
+$color-border: rgb(224, 224, 224);
+
+.drawer {
+  color: rgba(0, 0, 0, 0.870588);
+  background-color: rgb(255, 255, 255);
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  border-right: 1px solid $color-border;
+  height: 100%;
+  width: 14rem;
+  z-index: 996;
+  transform: translate(0px, 0px);
+  position: relative;
+
+  @media (max-width: 768px) {
+    position: absolute;
+    left: -14rem;
+    &.isOpen {
+      left: 0;
+    }
+  }
+
+  nav {
+    height: calc(100% - 60px);
+    overflow: auto;
+
+    .admin {
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+
+      .name {
+        color: $color-text;
+        font-size: .9rem;
+        cursor: default;
+      }
+
+      .huts {
+        color: $color-text;
+        font-size: .8rem;
+        font-weight: normal;
+        cursor: pointer;
+        margin-left: 2rem;
+
+        .hut{
+          &:hover {
+            color: $color-text-hover;
+          }
+          &.selected {
+            color: $color-text-hover;
+          }
+        }
+      }
+    }
+  }
+}

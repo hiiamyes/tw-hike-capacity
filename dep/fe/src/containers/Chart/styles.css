@@ -1,0 +1,18 @@
+$color1: #4ba6a8;
+$color-text1: #6b6a72;
+
+.root {
+  height: 100%;
+}
+
+.chart {
+  color: $color1;
+}
+
+.bar > rect {
+
+}
+
+.x.axis {
+
+}

@@ -29,7 +29,7 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "html-webpack-plugin": "^2.24.1",
     "immutable": "^3.8.1",
-    "lodash": "^4.16.4",
+    "lodash": "^4.17.19",
     "material-ui": "^0.16.0",
     "moment": "^2.15.1",
     "postcss-loader": "^0.13.0",
